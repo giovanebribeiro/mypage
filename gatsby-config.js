@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Julia Doe`,
+    title: `Giovane Boaviagem`,
     subtitle: `software developer`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
+    description: `The personal page of Giovane Boaviagem Ribeiro.`,
     author: `@niklasmtj`,
   },
   plugins: [
