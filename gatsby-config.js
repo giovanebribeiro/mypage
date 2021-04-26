@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Giovane Boaviagem`,
-    subtitle: `software developer`,
+    subtitle: `software developer / devops enthusiast`,
     description: `The personal page of Giovane Boaviagem Ribeiro.`,
     author: `@niklasmtj`,
   },
