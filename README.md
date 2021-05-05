@@ -1,14 +1,7 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Starter Julia
-</h1>
+# My personal page (Using 'julia' starter)
 
-[GatsbyJS](https://www.gatsbyjs.com/) is a free and open source static website builder build on React. It's one implementation of the [JAMstack](https://jamstack.org/) idea which creates high speed webpages.
+This page was built using [GatsbyJS](https://www.gatsbyjs.com/). This is a free and open source static website builder build on React. It's one implementation of 
+the [JAMstack](https://jamstack.org/) idea which creates high speed webpages.
 
 ## 📚 Features:
 
@@ -24,35 +17,6 @@
 - Site meta tags with React Helmet
 - Plugins for offline support
 - Draft blog posts not published
-
-## 👨🏻‍💻 Customization
-
-Create new pages like an About page in the `/pages` directory.
-The minimum code is:
-
-```js
-import React from "react"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const PageName = () => (
-  <Layout>
-    <SEO title="PageName" keywords={[`gatsby`, `application`, `react`]} />
-    //CONTENT HERE
-  </Layout>
-)
-
-export default PageName
-```
-
-To change the name on the landing page please modify the `title` in `gatsby-config.js`
-
-The Nunito typeface is included as a npm module in `gatsby-browser.js` and in `/components/layout.css`
-
----
-
-This Gatsby starter is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
 
 ## 🚀 Quick start
 
@@ -152,11 +116,3 @@ Looking for more guidance? The perfect place to learn more about GatsbyJS is the
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-You can also directly deploy this starter via Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/niklasmtj/gatsby-starter-julia)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
