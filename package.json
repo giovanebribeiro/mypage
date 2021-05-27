@@ -3,7 +3,7 @@
   "private": true,
   "description": "A minimal blog template built with Gatsby",
   "version": "0.0.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "author": "Giovane Boaviagem Ribeiro (using theme created by Niklas Metje <hi@niklasmtj.de>)",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
@@ -21,7 +21,7 @@
     "gatsby-transformer-remark": "^2.8.23",
     "gatsby-transformer-sharp": "^2.5.10",
     "prism-themes": "^1.4.0",
-    "prismjs": "^1.20.0",
+    "prismjs": "^1.23.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -39,15 +39,15 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
+    "start": "gatsby clean && npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/giovanebribeiro/mypage"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/giovanebribeiro/mypage/issues"
   }
 }
