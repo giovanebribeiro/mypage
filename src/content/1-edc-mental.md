@@ -1,6 +1,6 @@
 ---
 title: "Qual é o seu EDC Mental?"
-date: "2021-05-04"
+date: "2021-05-27"
 draft: false
 path: "/blog/edc-mental"
 ---
@@ -18,8 +18,8 @@ safar de situações no mínimo "desconfortáveis". Deste montar uma extensão e
 desmontar e dar manutenção em computadores, até iluminar um ambiente (sim, estou falando
 especificamente do banheiro...) quando falta energia (quem nunca?)
 
-![Meu EDC](../images/gatsby-astronaut.png "Com este conjunto de itens me livro de muitos
-perrengues")
+![Meu EDC](../images/EDC.JPG "Com este conjunto de itens me livro de muitos
+perrengues. Caso queiram saber em detalhes o que é cada item, é só acessar este link: https://everydaycarry.com/posts/43494/another-pocket-dump-returns")
 
 Mas... este seria o EDC para algo concreto. Será que o conceito do EDC poderia ser aplicado para
 habilidades/características mentais? Será que tendo uma mente mais preparada, podemos resolver situações cotidianas
