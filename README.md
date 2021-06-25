@@ -1,4 +1,4 @@
-# My personal page (Using 'julia' starter)
+# My personal page (Using 'julia' starter) [![Netlify Status](https://api.netlify.com/api/v1/badges/e85242a2-14e4-4a2d-a7bd-4d064ebce521/deploy-status)](https://app.netlify.com/sites/tender-bartik-150071/deploys)
 
 This page was built using [GatsbyJS](https://www.gatsbyjs.com/). This is a free and open source static website builder build on React. It's one implementation of 
 the [JAMstack](https://jamstack.org/) idea which creates high speed webpages.
