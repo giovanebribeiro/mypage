@@ -5,7 +5,6 @@
   "version": "0.0.0",
   "author": "Giovane Boaviagem Ribeiro (using theme created by Niklas Metje <hi@niklasmtj.de>)",
   "dependencies": {
-    "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
     "gatsby": "^3.8.0",
@@ -44,6 +43,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "gatsby clean && npm run develop",
+    "start:prd": "gatsby clean && gatsby build && gatsby serve",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "clean": "gatsby clean"
