@@ -14,7 +14,7 @@ pessoa é um mundo e cada pessoa possui o seu conjunto ideal. É por isso que os
 grupos ligados ao EDC estão crescendo cada vez mais e nunca faltará assunto neste tema rsrsrs. 
 
 Como um exemplo, compartilho o meu EDC até a data da publicação deste post. Com ele, consigo me
-safar de situações no mínimo "desconfortáveis". Deste montar uma extensão elétrica,
+safar de situações no mínimo "desconfortáveis". Desde montar uma extensão elétrica,
 desmontar e dar manutenção em computadores, até iluminar um ambiente (sim, estou falando
 especificamente do banheiro...) quando falta energia (quem nunca?)
 
@@ -56,7 +56,7 @@ mais prudentes. Vocês não vão se arrepender.
 
 Disciplina é o que lhe permite concluir suas metas. Todos nós já começamos um projeto e não
 terminamos, mesmo sabendo que muitos destes projetos seriam extremamente úteis e relevantes para
-nossa vida. Projetos de longo prazo só são concluídos porque você DECICIU concluí-los. E como é
+nossa vida. Projetos de longo prazo só são concluídos porque você DECIDIU concluí-los. E como é
 difícil essa decisão... Seu cérebro sempre quer lhe sabotar porque ele quer sempre o caminho mais curto
 e rápido, pois este gasta menos energia. Portanto, a disciplina nos ensina a perseverar nos nossos
 projetos e, consequentemente, finalizá-los.
