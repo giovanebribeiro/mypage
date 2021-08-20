@@ -84,6 +84,9 @@ const Header = ({ siteTitle }) => (
         <GitHubLink href="https://www.linkedin.com/in/giovanebribeiro/">
           Linkedin
         </GitHubLink>
+        <GitHubLink href="http://lattes.cnpq.br/9989327751969525">
+          Lattes
+        </GitHubLink>
       </p>
     </Content>
   </SiteHeader>
