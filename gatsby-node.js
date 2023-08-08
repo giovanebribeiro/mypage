@@ -37,6 +37,7 @@ exports.createPages = ({ graphql, actions }) => {
       allMarkdownRemark {
         edges {
           node {
+            timeToRead
             frontmatter {
               path
               draft

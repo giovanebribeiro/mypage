@@ -58,7 +58,7 @@ const IndexPage = ({ data }) => {
               </Link>
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                {/*<ReadingTime> - {node.timeToRead}min</ReadingTime>*/}
               </div>
               <p>{node.excerpt}</p>
             </div>
@@ -85,6 +85,7 @@ export const query = graphql`
       edges {
         node {
           id
+          timeToRead
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
@@ -93,9 +94,6 @@ export const query = graphql`
           }
           fields {
             slug
-            readingTime {
-              text
-            }
           }
           excerpt
         }

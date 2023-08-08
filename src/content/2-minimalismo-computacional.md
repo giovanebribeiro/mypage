@@ -12,8 +12,8 @@ possível o quanto estava errado. Erros de pilha, estouros de memória e outros 
 foram meus companheiros constantes durante meus primeiros anos de carreira. E tudo isso me fez mudar
 o meu modo de programar para melhor.
 
-Um bom gerenciamento de recursos é algo que considero essencial para um bom programador. Naturalmen
-te, as linguagens modernas já realizam uma parte do trabalho para você de modo que, podemos programar 
+Um bom gerenciamento de recursos é algo que considero essencial para um bom programador. Naturalmente, 
+as linguagens modernas já realizam uma parte do trabalho para você de modo que, podemos programar 
 de forma relativamente despreocupada e considerando que sempre teremos "recursos infinitos". Porém, 
 é sempre bom conhecermos os conceitos por trás do gerenciamento e tirarmos um melhor proveito
 das linguagens de programação, principalmente das mais antigas. Muitos sistemas por aí são legados
