@@ -2,7 +2,7 @@
 title: "LinkedList e o minimalismo computacional"
 date: "2022-03-21"
 draft: false
-path: "/blog/minimalismo-computacional"
+path: "/blog/minimalismo-computacional/"
 ---
 
 No começo da minha carreira como desenvolvedor de software, nunca me preocupei muito com o bom uso 

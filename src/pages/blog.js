@@ -73,31 +73,31 @@ export default IndexPage
 export const query = graphql`
   query {
     site {
-      siteMetadata {
-        title
-      }
+    siteMetadata {
+      title
     }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { eq: false } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          timeToRead
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-            rawDate: date
-            path
-          }
-          fields {
-            slug
-          }
-          excerpt
+  }
+  allMarkdownRemark(
+    sort: {frontmatter: {date: DESC}}
+    filter: {frontmatter: {draft: {eq: false}}}
+  ) {
+    totalCount
+    edges {
+      node {
+        id
+        timeToRead
+        frontmatter {
+          title
+          date(formatString: "DD MMMM, YYYY")
+          rawDate: date
+          path
         }
+        fields {
+          slug
+        }
+        excerpt
       }
     }
+  }
   }
 `
