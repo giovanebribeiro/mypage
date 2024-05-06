@@ -1,7 +1,7 @@
 ---
 title: "Relatório Harness sobre Developer Experience em 2024"
 date: "2024-05-02"
-draft: true
+draft: false
 path: "/blog/relatorio-devex-2024/"
 ---
 
