@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.2.0](https://github.com/giovanebribeiro/mypage/compare/v0.1.0...v0.2.0) (2024-05-06)
+
+
+### Features
+
+* add post no 4 ([0177054](https://github.com/giovanebribeiro/mypage/commit/017705418ccc05808fd1463aa064a9752adc8d51))
+* finalizando post relatório devex ([db985dd](https://github.com/giovanebribeiro/mypage/commit/db985dd51ded679da9adf4a346f6747868781e89))
+* finalizando post relatório devex ([9693e4e](https://github.com/giovanebribeiro/mypage/commit/9693e4e9a08220f2e4bc085bb3dfe03209db8339))
+* upgrade dependencies ([6aa522e](https://github.com/giovanebribeiro/mypage/commit/6aa522e857d0a7468bbeaa5e5398d9ec8a85f10b))
+
 ## [0.1.0](https://github.com/giovanebribeiro/mypage/compare/v0.0.0...v0.1.0) (2023-08-10)
 
 

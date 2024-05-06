@@ -2,7 +2,7 @@
   "name": "gatsby-starter-julia",
   "private": true,
   "description": "A minimal blog template built with Gatsby",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Giovane Boaviagem Ribeiro (using theme created by Niklas Metje <hi@niklasmtj.de>)",
   "engines": {
     "node": ">=18.17.0"
