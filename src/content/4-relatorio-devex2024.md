@@ -14,56 +14,26 @@ O relatório apresenta números que orbitam em torno de 4 tópicos principais:
 * Taxa de falhas de mudança (CFRs) e DevSecOPS
 * Saúde mental dos desenvolvedores
 
-No primeiro tópico, o relatório mostra que a grande quantidade de ferramentas utilizadas 
+## Ecossistema de desenvolvimento
 
-* 500 desenvolvedores foram entrevistados, numa parceria com a Wakefiled research
-* Desenvolvedores gerenciam (ou têm que lidar) com uma média de 14 ferramentas diferentes
-  * workflow complexo
-  * ecossistema fragmentado
-  * cria funis de produtividade
-  * 54% dos devs dizem demorar mais de uma semana para aprender novas ferramentas de devops
-  * Onboarding de novas ferramentas ao processo já existente pode consumir até 100 dias de trabalho
-    * alterações de automações, atualizações, plugins, integrações novas, scripts, etc.
-  * 59% dos devs dizem que demoram uma semana ou mais para construir ferramentas internas
-    * consequencia direta: adiciona pontos de falha no desenvolvimento
-  * Múltiplas ferramentas também significa mudança de contexto (interfaces, fluxos, procedimentos internos de cada software) e isso atrapalha a produtividade (97% dos devs)
-    * confusão -> overload cognitivo -> falta de consistência
-* Uma plataforma unificada com todas as ferramentas de desenvolvimento que precisamos aumenta a produtividade dos desenvolvedores
-* 62% dos clientes dessas ferramentas que são executivos de TI preferem comprar plataformas
-* Consolidação de ferramentas significa um aumento de produtividade em torno de 53%
-  
-* 60% das organizações ainda lançam software em uma base mensal ou trimestral
-  * Incompatível com as demandas de agilidade e respostas rápidas do mercado
-  * 42% dos desenvolvedores acham que seus deploys para produção não são rápidos ou eficientes
-  * 44% dos devs acham que que seus testes end-to-end não são rápidos ou eficientes
-  * Code reviews muito longos também contribuem para estes intervalos muito longos entre deploys de produção.
-  * 67% dos devs atestam que seus code reviews duram em média 1 semana
-    * prejudica a resposta a incidentes
-  * Reduced Change Failure Rates (CFR) resultaram em um aumento de produtividade de 60%
-    * Métrica que avalia o quanto as mudanças do software resultaram em falhas em outras áreas
+O relatório mostra que a grande quantidade de ferramentas utilizadas pelos desenvolvedores para compor o ecossistema de desenvolvimento (14, em média) pode prejudicar bastante a produtividade. A dificuldade aumenta quando é necessário adicionar novas ferramentas ao processo já existente, seja em termos de configuração, ou integração com ferramentas já presentes. Além disso, uma quantidade grande de ferramentas utilizadas no processo de desenvolvimento pode gerar uma grande quantidade de gargalos burocráticos, além de trocas de contexto que afetam ainda mais a produtividade, gerando overloads cognitivos. A tendência é que ferramentas isoladas sejam convertidas em plataformas fortemente integradas, e que atendam com mais facilidade as necessidades das empresas. Somente a consolidação das ferramentas do processo de desenvolvimento podem aumentar a produtividade dos desenvolvedores em aproximadamente 53%, de acordo com o relatório da Harness.
 
-* 42% dos devs dizem que não podem lançar software em produção sem risco de falhas no processo.
-  * Métrica relacionada a isso: CFR (Change Failure Rate)
-  * 39% dos devs experimentam falhas em pelo menos metade do tempo
-  * Developer Toil: Caracterizado por tarefas repetitivas, manuais e com baixo valor e que consomem uma quantidade significativa de tempo
-    * Quanto mais experiente você é em desenvolvimento de software, mais você se preocupa menos com burocracias referentes ao desenvolvimento e mais em gerar valor com o seu software
-    * 28% dos desenvolvedores dizem que levam pelo menos um dia para construir e testar artefatos
-    * 67% dos devs atualmente executam rollbacks manuais
-      * Rollbacks automáticos são preferíveis em detrimento dos manuais, pois entende-se que o componente humano no processo pode ocasionar falhas e riscos operacionais
-  * 32% dos devs dizem que seus softwares possuem uma taxa baixa de cobertura de testes
-  * 23% dos devs estão fazendo horas extras a uma quantidade equivalente a 10 dias no mês
-  * Uma redução no Developer Toil resulta em um aumento de produtividade de 37% em média
+## Dificuldades e riscos durante os processos de release de software
 
-* 59% dos desenvolvedores dizem que os requisitos de segurança (AppSec) limitam a capacidade de deploys frequentes de código.
-  * Em relação a DevOPS, é fato que a segurança  é normalmente sacrificada em prol do negócio
-  * 40% dos desenvolvedores admitem que suas empresas não aplicam boa políticas de segurança e governança no processo de CI/CD
-  * 42% dos devs não possuem políticas robustas de gerenciamento de usuários (IAM)
-  * A adoção de práticas de DevSecOPS para garantir aplicações cada vez mais seguras
-  * 95% dos incidentes de segurança são duplicados (barulho)
+Mais da metade das das empresas (60%) ainda lançam software em uma frequência mensal ou trimestral. Dentre as principais razões, apontadas pelos entrevistados, para este fato estão a lentidão dos procedimentos de deploy para ambientes produtivos, testes end-to-end lentos ou ineficientes, e code reviews muito longos. Como exemplo, 67% dos devs assumem que seus processos de code review duram em média 1 semana. Todo este tempo para code reviews possui uma consequencia grave, que afeta diretamente a resposta a incidentes. A situação se agrava quando mudanças no software ocasionam falhas em produção, o que faz com que o software estabilize em um tempo muito maior. O relatório inclusive propõe uma métrica que avalia o impacto destes ajustes que ocasionam falhas (_Change Failure Rate_, ou CFR). A conclusão, é que a produtividade do time pode aumentar em até 60% se tivermos CFRs baixos.
 
-* 52% dos devs citam burnout como uma razão dos seus pares buscarem outros empregos
-  * 45% dos devs responderam que não possuem tempo suficiente para aprendizado e desenvolvimento
-  * 71% dos executivos de TI que o tempo de onboarding de novos colaboradores é de pelo menos 2 meses
-  * 97% dos devs afirmam trocar de contexto durante o dia
-  * 100% dos executivos de TI admitem que se eles reduzissem o número de erros no processo de desenvolvimento aumentaria a retenção de colaboradores
-  * 28.8k hrs gastas em análise de incidentes relacionados a código
+Além disso, outro problema que afeta diretamente os processos de desenvolvimento de software são as falhas de _deployment_. Sobre este tema, 42% dos desenvolvedores dizem que não conseguem realizar deploys sem risco de falhas. Dentre as razões para estas falhas, o relatório aponta principalmente as tarefas que não necessariamente são relacionadas com desenvolvimento de software. São tarefas repetitivas, manuais, com baixo valor e que consomem uma quantidade significativa de tempo (_Developer Toil_). Quanto mais experiente o desenvolvedor, menos ele quer se preocupar com estas tarefas e mais em gerar valor para o software. Outro dado preocupante é que 67% dos desenvolvedores executam rollbacks manuais. Além de serem mais demorados, rollbacks manuais adicionam o componente humano no processo, o que aumenta o risco de falhas operacionais. Rollbacks automáticos são preferíveis nestes cenários.
+
+## Taxa de falhas de mudança (CFRs) e DevSecOPS
+
+Requisitos de segurança (AppSec) são extremamente importantes para o software, e deve estar presentes nos processos de desenvolvimento. Porém, para 59% dos desenvolvedores, estes requisitos de segurança limitam a capacidade de deploys frequentes de código. Muitas vezes, devido ao fato de que os processos de validação e revisão voltados a segurança contribuem de maneira significativa para o tempo de lançamento do software. Colocando uma lente de aumento no processo e focando especificamente em DevOPS, a segurança é um dos primeiros pilares a serem sacrificados em prol de entregas mais rápidas e do próprio negócio. Uma prova desta afirmação é que 40% dos desenvolvedores entrevistados admitem que suas empresas não aplicam boas práticas de DevSecOPS em seus processos, e 42% dos devs participantes da pesquisa não possuem políticas robustas de IAM. Outro dado preocupante apontado na pesquisa é que 95% dos incidentes de segurança são duplicados, o que mostra que além de buscarmos um equilíbrio entre as práticas de DevSecOPS e agilidade nos processos de entrega de software, devemos melhorar a triagem dos incidentes de segurança para que menos duplicidades sejam apontadas.
+
+## Saúde mental dos desenvolvedores
+
+A saúde mental dos desenvolvedores também foi abordada nesta pesquisa, algo que, confesso, achei uma sacada muito interessante. Primeiro porque o relatório faz uma associação interessante entre erros no processo de desenvolvimento com aumento de stress e pressão em cima dos desenvolvedores, o que contribui bastante para seu desligamento das empresas. Não ter tempo suficiente para aprendizado e desenvolvimento (45%), trocas constantes de contexto de atividades (97%), além de longas horas gastas em análise de incidentes foram os fatores mais citados pelos desenvolvedores. 
+
+A maioria dos executivos de TI que responderam a pesquisa (71%) afirmam que o tempo de onboarding de novos colaboradores em média é de 2 meses, o que torna o processo de reposição de colaboradores ainda mais complicado. Empresas com rotatividade alta de funcionários sofrem com níveis de produtividade baixos, simplesmente porque seus novos colaboradores demoram muito para estarem "prontos". Isso somado as altas cargas de stress, processos com etapas manuais e repetitivas com altos níveis de falha e as já citadas trocas de contexto corroboram para que 52% dos desenvolvedores citarem burnout como a principal razão para seus pares buscarem novas oportunidades em outras empresas.
+
+## Conclusão
+
+Como pudemos observar, o relatório Harness sobre Developer Experience em 2024 é um retrato bem completo e interessante sobre a realidade das empresas em termos de processos e desenvolvimento de software, fornecendo bons insights e norteando ações que podemos aplicar em nossas organizações para melhorar cada vez os processos de desenvolvimento e principalmente a experiência dos desenvolvedores.
