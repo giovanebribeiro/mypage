@@ -44,9 +44,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "predevelop": "cp -r ../mypage-content/content/*.md src/content/",
     "start": "gatsby clean && npm run develop",
-    "prestart:prd": "npm run predevelop",
     "start:prd": "gatsby clean && gatsby build && gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "clean": "gatsby clean"
