@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/giovanebribeiro/mypage/compare/v0.2.0...v0.2.1) (2024-05-27)
+
+
+### Bug Fixes
+
+* update gtag ([3641e35](https://github.com/giovanebribeiro/mypage/commit/3641e3590da1aa484c1f5442a6cc0aca14f03dac))
+
 ## [0.2.0](https://github.com/giovanebribeiro/mypage/compare/v0.1.0...v0.2.0) (2024-05-06)
 
 
