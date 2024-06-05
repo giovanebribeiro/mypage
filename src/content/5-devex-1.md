@@ -5,7 +5,7 @@ draft: false
 path: "/blog/devex-1/"
 ---
 
-Como vimos no post anterior (que você pode converir [aqui](https://giovane.boaviagemribeiro.com/blog/relatorio-devex-2024/)), percebemos que a experiência do desenvolvedor de software, ou _DevEx_, é algo que começa a ter um impacto relevante na produtividade das empresas, e um tópico que ganha mais e mais relevância ao longo do tempo. Hoje, com a enxurrada de responsabilidades que os desenvolvedores possuem nas organizações fica cada vez mais claro que não podemos lidar com os devs da mesma forma que lidávamos no passado, ou corremos o risco das empresas enfrentarem sérios problemas no futuro. Porém, para entendermos melhor o que é esse tal de DevEx e como implantá-lo da melhor forma em nossas organizações, é necessário sabermos a origem dessa "experiência desenvolvedora" e como chegamos no termo complexo que temos hoje. Comecemos pelo começo.
+Como vimos no post anterior (que você pode converir [aqui](https://giovane.boaviagemribeiro.com/blog/relatorio-devex-2024/)), percebemos que a experiência do desenvolvedor de software, ou _DevEx_, é algo que começa a ter um impacto relevante na produtividade das empresas, e um tópico que ganha mais e mais relevância ao longo do tempo. Hoje, com a enxurrada de responsabilidades que os desenvolvedores possuem nas organizações fica cada vez mais claro que não podemos lidar com os devs da mesma forma que lidávamos no passado, ou corremos o risco das empresas enfrentarem sérios problemas no futuro. Porém, para entendermos melhor o que é esse tal de DevEx e como implantá-lo da melhor forma em nossas organizações, é necessário sabermos a origem dessa "experiência desenvolvedora" e como chegamos no termo complexo que temos hoje. Comecemos pelo começo. Este artigo é uma adaptação deste excelente texto[1] e tentei complementá-lo com insights do relatório da Harness e meus próprios pensamentos. Vamos lá!
 
 ## Pré-2000: A idade da pedra
 
@@ -38,7 +38,7 @@ Nesta era, os desenvolvedores recebem mais responsabilidades, sendo responsávei
 
 ## 2020: Times de produto
 
-Finalmente, chegamos no tempo atual (ou pelo menos, até a década onde este artigo foi publicado). Aqui, vemos uma mudança de paradigma: as empresas agora não lidam mais com software como um produto por si só, mas sim como plataformas onde produtos são oferecidos. Nestes cenários, temos equipes inteiras dedicadas a manutenção destas plataformas, enquanto que outros times constroem produtos que utilizam estas plataformas. Um exemplo clássico são empresas que trabalham com Big Data, onde plataformas fornecem o acesso aos dados, que são utilizados das mais diversas formas pelos produtos comercializados. Devido a esta mudança, as topologias de equipes mudaram radicalmente [1]. Se as estruturas de times mudaram, adicionando principalmente dinamismo, os papéis de cada integrante do time também mudaram e com isso, mais responsabilidades [2][3].
+Finalmente, chegamos no tempo atual (ou pelo menos, até a década onde este artigo foi publicado). Aqui, vemos uma mudança de paradigma: as empresas agora não lidam mais com software como um produto por si só, mas sim como plataformas onde produtos são oferecidos. Nestes cenários, temos equipes inteiras dedicadas a manutenção destas plataformas, enquanto que outros times constroem produtos que utilizam estas plataformas. Um exemplo clássico são empresas que trabalham com Big Data, onde plataformas fornecem o acesso aos dados, que são utilizados das mais diversas formas pelos produtos comercializados. Devido a esta mudança, as topologias de equipes mudaram radicalmente [2]. Se as estruturas de times mudaram, adicionando principalmente dinamismo, os papéis de cada integrante do time também mudaram e com isso, mais responsabilidades [3][4].
 
 Como esperado, agora desenvolvedores acumulam responsabilidades gigantescas e o seu nível de stress aumentou a níveis estratosféricos. Times orientados a produtos demandam muito dos times de plataformas, com prazos cada vez mais curtos (devido a rapidez dos negócios) e praticamente inviabilizando ações manuais de longo prazo. 
 
@@ -52,6 +52,7 @@ Mas, como fazer isso? É aí que entra um termo que exploraremos melhor nos pró
 
 ### Referências
 
-* [1] [https://web.devopstopologies.com/](https://web.devopstopologies.com/)
-* [2] [https://medium.com/@hello_9187/infrastructure-as-code-needs-a-rethink-201c6875522c](https://medium.com/@hello_9187/infrastructure-as-code-needs-a-rethink-201c6875522c)
-* [3] [https://amzn.to/4c2VGIG](https://amzn.to/4c2VGIG)
+* [1] [https://medium.com/agorapulse-stories/platform-engineering-part-1-why-the-evolution-of-developer-cognitive-load-9f36f5cc2888](https://medium.com/agorapulse-stories/platform-engineering-part-1-why-the-evolution-of-developer-cognitive-load-9f36f5cc2888)
+* [2] [https://web.devopstopologies.com/](https://web.devopstopologies.com/)
+* [3] [https://medium.com/@hello_9187/infrastructure-as-code-needs-a-rethink-201c6875522c](https://medium.com/@hello_9187/infrastructure-as-code-needs-a-rethink-201c6875522c)
+* [4] [https://amzn.to/4c2VGIG](https://amzn.to/4c2VGIG)
