@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/giovanebribeiro/mypage/compare/v0.2.1...v0.2.2) (2024-06-05)
+
+
+### Bug Fixes
+
+* ajustes menores ([4237777](https://github.com/giovanebribeiro/mypage/commit/4237777b821774c167fa2e2c8384bfeb87ed937a))
+
 ## [0.2.1](https://github.com/giovanebribeiro/mypage/compare/v0.2.0...v0.2.1) (2024-05-27)
 
 
