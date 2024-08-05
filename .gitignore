@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# other files
+.devcontainer/bash_complements
+.devcontainer/myvars.env
