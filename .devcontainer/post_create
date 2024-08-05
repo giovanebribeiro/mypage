@@ -1,0 +1,13 @@
+#
+# post_create
+#
+# Script contendo uma série de comandos necessários para a inicialização correta do ambiente de desenvolvimento
+#
+uname -a
+
+# Inicializando o arquivo de configurações complementares, caso exista
+if [ -f /workspace/.devcontainer/bash_complements ]; then
+    . /workspace/.devcontainer/bash_complements
+fi
+
+npm install
