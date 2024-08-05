@@ -17,4 +17,4 @@ test alias your_alias_name >/dev/null 2>&1 || alias clima='curl v2.wttr.in'
 # Configs git
 #
 command -v git >/dev/null 2>&1 && git config --global user.name "Seu Nome"
-command -v git >/dev/null 2>&1 && git config --global user.email "seu.nome@neurotech.com.br"
+command -v git >/dev/null 2>&1 && git config --global user.email "seu.nome@domain.com"
