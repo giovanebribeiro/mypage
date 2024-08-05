@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/giovanebribeiro/mypage/compare/v0.2.2...v0.3.0) (2024-08-05)
+
+
+### Features
+
+* add devcontainers ([838bf85](https://github.com/giovanebribeiro/mypage/commit/838bf85f3b5f007a0f2d18d29aca1721eb9af55c))
+* some adjustments ([c19a881](https://github.com/giovanebribeiro/mypage/commit/c19a881fb33b5aa941ec6e2c58dadc5ec670ac42))
+
 ## [0.2.2](https://github.com/giovanebribeiro/mypage/compare/v0.2.1...v0.2.2) (2024-06-05)
 
 
