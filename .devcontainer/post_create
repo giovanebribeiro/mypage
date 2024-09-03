@@ -10,4 +10,5 @@ if [ -f /workspace/.devcontainer/bash_complements ]; then
     . /workspace/.devcontainer/bash_complements
 fi
 
+npm cache clean --force
 npm install
