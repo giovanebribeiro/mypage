@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.0](https://github.com/giovanebribeiro/mypage/compare/v0.2.2...v0.3.0) (2024-09-20)
+
+
+### Features
+
+* add devcontainers ([838bf85](https://github.com/giovanebribeiro/mypage/commit/838bf85f3b5f007a0f2d18d29aca1721eb9af55c))
+* add devex-2 article ([ca2db28](https://github.com/giovanebribeiro/mypage/commit/ca2db2856ae878f52638196ecd60190dee8fa3c7))
+* adicionando artigo ([aad0218](https://github.com/giovanebribeiro/mypage/commit/aad0218a5c5a1415a10c86a0283fde625b53daa0))
+* some adjustments ([c19a881](https://github.com/giovanebribeiro/mypage/commit/c19a881fb33b5aa941ec6e2c58dadc5ec670ac42))
+
 ## [0.2.2](https://github.com/giovanebribeiro/mypage/compare/v0.2.1...v0.2.2) (2024-06-05)
 
 
