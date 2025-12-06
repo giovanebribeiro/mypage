@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { siteMetadata } from "../config/site"
 
 const Container = styled.div`
   text-align: center;
@@ -27,26 +27,12 @@ const NameHeader = styled.h1`
 `
 
 const LandingBio = () => (
-  <StaticQuery
-    query={graphql`
-      query LandingSiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-            subtitle
-          }
-        }
-      }
-    `}
-    render={data => (
-      <OuterContainer>
-        <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
-        </Container>
-      </OuterContainer>
-    )}
-  />
+  <OuterContainer>
+    <Container>
+      <NameHeader>{siteMetadata.title}</NameHeader>
+      <Description>{siteMetadata.subtitle}</Description>
+    </Container>
+  </OuterContainer>
 )
 
 NameHeader.propTypes = {

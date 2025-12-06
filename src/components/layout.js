@@ -1,14 +1,7 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { siteMetadata } from "../config/site"
 
 import Header from "./header"
 import "./layout.css"
@@ -20,7 +13,7 @@ const Content = styled.div`
   padding-top: 0;
 `
 
-const GatsbyLink = styled.a`
+const ViteLink = styled.a`
   margin-left: 5px;
 `
 
@@ -30,32 +23,21 @@ const Footer = styled.footer`
 `
 
 const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <Content>
-          <main>{children}</main>
-          <Footer>
-            <p>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
-          </Footer>
-        </Content>
-      </>
-    )}
-  />
+  <>
+    <Header siteTitle={siteMetadata.title} />
+    <Content>
+      <main>{children}</main>
+      <Footer>
+        <p>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        </p>
+        <ViteLink href="https://vitejs.dev">Vite</ViteLink>
+        {` + `}
+        <ViteLink href="https://react.dev">React</ViteLink>
+      </Footer>
+    </Content>
+  </>
 )
 
 Layout.propTypes = {

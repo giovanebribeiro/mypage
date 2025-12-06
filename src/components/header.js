@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import { Link } from "react-router-dom"
 import styled from "@emotion/styled"
 import PropTypes from "prop-types"
 import React from "react"
@@ -83,9 +83,6 @@ const Header = ({ siteTitle }) => (
         </GitHubLink>
         <GitHubLink href="https://www.linkedin.com/in/giovanebribeiro/">
           Linkedin
-        </GitHubLink>
-        <GitHubLink href="http://lattes.cnpq.br/9989327751969525">
-          Lattes
         </GitHubLink>
       </p>
     </Content>
