@@ -2,7 +2,7 @@
 title: "Qual é o seu EDC Mental?"
 date: "2021-05-27"
 draft: false
-path: "/blog/edc-mental"
+path: "/blog/edc-mental/"
 ---
 
 Sou adepto a algum tempo de uma filosofia de vida chamada de _Every Day Carry_ (ou EDC). Esse termo

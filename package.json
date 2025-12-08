@@ -4,6 +4,9 @@
   "description": "My website",
   "version": "1.0.0",
   "author": "Giovane Boaviagem Ribeiro (using theme created by Niklas Metje <hi@niklasmtj.de>)",
+  "engines": {
+    "node": ">=18.17.0"
+  },
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",

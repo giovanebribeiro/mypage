@@ -61,7 +61,7 @@ export default ({ data }) => {
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
+          {post.frontmatter.date} - Tempo de leitura: {post.timeToRead}min
         </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
@@ -79,11 +79,7 @@ export const pageQuery = graphql`
         path
         title
       }
-      fields {
-        readingTime {
-          text
-        }
-      }
+      timeToRead
     }
   }
 `
