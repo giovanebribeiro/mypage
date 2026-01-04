@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/giovanebribeiro/mypage/compare/v0.3.0...v0.4.0) (2025-12-08)
+
+
+### Features
+
+* refactor, removing gatsby dependency ([2cff757](https://github.com/giovanebribeiro/mypage/commit/2cff7570cf8ed912f3ff3e9bb596f8925b04574b))
+
+
+### Bug Fixes
+
+* **deps:** downgrade para Node.js 20.18.0 LTS ([bb5de34](https://github.com/giovanebribeiro/mypage/commit/bb5de345d7a7e9ad71326a7ac95b0648540ce66a))
+
 ## [0.3.0](https://github.com/giovanebribeiro/mypage/compare/v0.2.2...v0.3.0) (2024-09-20)
 
 

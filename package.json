@@ -2,7 +2,7 @@
   "name": "mypage",
   "private": true,
   "description": "My website",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Giovane Boaviagem Ribeiro (using theme created by Niklas Metje <hi@niklasmtj.de>)",
   "dependencies": {
     "@emotion/react": "^11.4.0",
